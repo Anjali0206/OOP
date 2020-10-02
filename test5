@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#define MAX 10
 class Book
 {
         public:
@@ -69,8 +69,8 @@ class E_book:public Book
 int main()
 {
   int x,m,n;
-Print_book p[];
-E_book e[];
+Print_book p[MAX];
+E_book e[MAX];
 cout<<"Enter type of book: \nFor Printed Book, press 1 \nFor E-Book, press 2  \n";
 cin>>x;
 if(x==1)
