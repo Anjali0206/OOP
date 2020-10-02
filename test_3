@@ -3,9 +3,13 @@ using namespace std;
   
 class Compare { 
 public: 
+    int a;
     int comp(Compare E) 
     { 
         if(a >= E.a)
+         return E.a;
+        else
+          return a;
     } 
 }; 
   
