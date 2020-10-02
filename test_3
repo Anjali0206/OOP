@@ -1,0 +1,31 @@
+#include <iostream> 
+using namespace std; 
+  
+class Compare { 
+public: 
+    int comp(Compare E) 
+    { 
+        if(a >= E.a)
+    } 
+}; 
+  
+// Driver Code 
+int main() 
+{ 
+    int small;
+    Compare E1, E2; 
+  
+    E1.a = 50; 
+    E2.a = 100; 
+  
+    cout << "Initial Values \n"; 
+    cout << "Value of object 1: " << E1.a 
+         << "\n& object 2: " << E2.a 
+         << "\n\n"; 
+  
+    small=E2.comp(E1); 
+  
+    cout << "Smallest between the two is: " <<small<< "\n\n"; 
+  
+    return 0; 
+} 
