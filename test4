@@ -5,7 +5,7 @@ class ClassA
 public:
 int a;
 };
-class ClassB
+class ClassB : public ClassA
 {
 public: 
 int b;
@@ -23,6 +23,7 @@ int d;
 
 int main()
 {
+ClassD obj;
 obj.ClassB::a = 10; //Statement 3
 obj.ClassC::a = 100; //Statement 4 
 obj.b = 20;
